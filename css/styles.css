@@ -718,3 +718,8 @@ body {
     outline: transparent;
     outline-offset: 4px;
 }
+.svg-span-checkbox {
+    background-color: #404BBF;
+    fill: #FFFFFF;
+ 
+}
