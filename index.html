@@ -417,13 +417,84 @@
         
       
     </footer>
-    <div class="backdrob">
+    <div class="backdrob is-open">
       <div class="model">
+        
         <button class="model-close-button" type="button" aria-label="model close button">
           <svg class="model-close-button-icon" width="8" height="8" >
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+
+        <p class="p-model">Leave your contacts and we will call you back</p>
+        
+        <form class="review-form">
+
+          <div class="review-form-field">
+            <label class="review-form-field-label" for="user-first-name">Name</label>
+            <input 
+              class="review-form-field-input" 
+              type="text"
+              name="user-first-name" 
+              id="user-first-name"
+              required
+              pattern="[a-zA-Zа-яА-Я]+"
+              title="Василий">
+            </input>
+          </div>
+
+          <div class="review-form-field">
+            <label class="review-form-field-label" for="user-phone">Phone</label>
+            <input 
+              class="review-form-field-input" 
+              type="tel"
+              name="user-phone" 
+              id="user-phone"
+              required
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+            </input>
+          </div>
+
+          <div class="review-form-field">
+            <label class="review-form-field-label" for="user-email">Email</label>
+            <input 
+              class="review-form-field-input" 
+              type="email"
+              name="user-email" 
+              id="user-email"
+              required>
+            </input>
+          </div>
+
+          <div class="review-form-field">
+            <label class="review-form-field-label" for="user-coment">Comment</label>
+            <textarea 
+              class="review-form-field-messege" 
+              name="user-coment" 
+              id="user-coment" 
+              placeholder="Text input"> 
+              <!-- что то не то с плейс холдером -->  
+            </textarea>
+          </div>
+
+          <div class="review-form-field-checkbox">
+            <input 
+              class="review-form-checkbox" 
+              type="checkbox"
+              name="user-checkbox"
+              value="true"
+              required>
+            <label class="review-form-field-label-checkbox" for="user-checkbox">
+              I accept the terms and conditions of the  
+              <a href="" class="privacy-police">privacy-police</a>
+            </label>
+            <button class="review-form-field-button" type="submit">
+              send
+            </button>
+          </div>
+
+        </form>
+        
 
       </div>
     </div>
