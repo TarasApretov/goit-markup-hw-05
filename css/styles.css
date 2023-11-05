@@ -683,7 +683,10 @@ body {
 
 }
 .review-form-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
+}
+.review-form-field-textarea {
+    margin-bottom: 18px;
 }
 .review-form-field-icon{
     position: absolute;
@@ -796,11 +799,16 @@ body {
 
 }
 
+.footer-form {
+    display: flex;
+    
+}
+
 .footer-form-field-text {
     
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     text-align: left;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 16px;
