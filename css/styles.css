@@ -789,7 +789,7 @@ body {
 }
 /* -------------footer-email ------------*/
 .footer-form-field-input {
-    width: 264;
+    width: 264px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid #ffffff;
@@ -851,7 +851,7 @@ body {
     cursor: pointer;
     background-color: #4D5AE5;
     justify-content: center;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     border: none;
     cursor: pointer;
